@@ -1,4 +1,5 @@
-#include "AudioComponetInterface.h"
+#include "AudioComponentInterface.h"
+
 
 class Music : public AudioComponentInterface
 {
