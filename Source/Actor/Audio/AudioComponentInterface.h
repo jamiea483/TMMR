@@ -1,4 +1,5 @@
-#include "ActorComponent.h"
+#include "Actor\ActorComponent.h"
+
 
 class AudioComponentInterface : public ActorComponent
 {
@@ -9,8 +10,8 @@ public:
 	const static ComponentId g_COMPONENT_ID;
 
 	
-	AudioComponentInterface();
-	virtual ComponentId VGetComponentId(void) const { }
+	AudioComponentInterface() {}
+	virtual ComponentId VGetComponentId(void) const { return 0; }
 	virtual void PlayAtTime(float timeInSeconds) = 0;
 	virtual void SetVolume(int volume) = 0;
 	virtual void SetLooping(bool looping) = 0; 

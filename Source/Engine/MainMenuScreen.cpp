@@ -2,4 +2,4 @@
 
 MainMenuScreen::MainMenuScreen() {}
 
-ActorMap MainMenuScreen::CreateActorList() {}
+ActorMap* MainMenuScreen::CreateActorList() { return nullptr; }

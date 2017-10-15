@@ -1,6 +1,7 @@
 #include "GameOverScreen.h"
 
+
 GameOverScreen::GameOverScreen() {}
 
-ActorMap GameOverScreen::CreateActorList() {}
+ActorMap* GameOverScreen::CreateActorList() { return nullptr; }
 

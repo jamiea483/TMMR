@@ -5,14 +5,14 @@
 class GameEngine
 {
 private:
-	typedef std::map<ActorId, StrongActorPtr> ActorMap;
+	typedef std::map<ActorId, Actor*> ActorMap;
 	ActorMap m_actors; 
-	Screen currentScreen;
+	Screen* currentScreen;
 	Assets assetsContainer; // the container of all the assets in the game
 	ActorSpawnManager spawner;
 
 public:
-	GameEngine(string initialScreen);
+	GameEngine(char* initialScreen);
 	void Run(); 
 
 	void InitActors(); // calls the actor list builder of the current screen.

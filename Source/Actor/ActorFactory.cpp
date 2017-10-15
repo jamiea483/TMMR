@@ -2,9 +2,9 @@
 
 ActorFactory::ActorFactory(){}
 
-StrongActorPtr ActorFactory::CreateActor(const char* actorResource) {}
+Actor* ActorFactory::CreateActor(const char* actorResource) { return nullptr;  }
 
-StrongActorComponentPtr ActorFactory::CreateComponent(TiXmlElement* pData) {}
+ActorComponent* ActorFactory::CreateComponent(char* pData) { return nullptr; }
 
-ActorId ActorFactory::GetNextActorId() {}
+ActorId ActorFactory::GetNextActorId() { return 0; }
 

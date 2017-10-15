@@ -4,7 +4,7 @@ class FireBreath : public AbilityComponentInterface
 {
 public:
 	FireBreath();
-	virtual bool VInit(TiXmlElement* pData); 
+	virtual bool VInit(char* pData) { return false; }
 	virtual void ApplyEffect();
 
 	static const char *g_Name;

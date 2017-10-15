@@ -1,4 +1,4 @@
 #include "PauseScreen.h"
 
 PauseScreen::PauseScreen() {}
-ActorMap PauseScreen::CreateActorList() {}
+ActorMap* PauseScreen::CreateActorList() { return nullptr; }

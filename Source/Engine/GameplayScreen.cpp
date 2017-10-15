@@ -2,7 +2,7 @@
 
 GameplayScreen::GameplayScreen() {}
 
-ActorMap GameplayScreen::CreateActorList() {}
+ActorMap* GameplayScreen::CreateActorList() { return nullptr; }
 
 void GameplayScreen::InitActorsWithPhysicsList() {}
 

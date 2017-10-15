@@ -2,9 +2,10 @@
 
 const char* Music::g_Name = "Music";
 
+
 Music::Music() {}
 
-bool Music::VInit(TiXmlElement* pData) {}
+//bool Music::VInit(char* pData) { return true; }
 
 void Music::PlayAtTime(float timeInSeconds) {}
 

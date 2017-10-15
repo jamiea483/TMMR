@@ -1,14 +1,17 @@
 #include "Screen.h"
+#include <map>
+
+typedef std::map<ActorId, Actor*> ActorMap;
 
 class GameplayScreen : private Screen
 {
 private:
-	typedef std::map<ActorId, StrongActorPtr> ActorMap;
+	typedef std::map<ActorId, Actor*> ActorMap;
 	ActorMap m_actors;
 
 public:
 	GameplayScreen();
-	ActorMap CreateActorList();
+	ActorMap* CreateActorList();
 	void InitActorsWithPhysicsList();
 
 };

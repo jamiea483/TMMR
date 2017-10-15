@@ -2,11 +2,12 @@
 
 const char* Physics2D::g_Name = "Physics2D";
 
+
 Physics2D::Physics2D() {}
 
-bool Physics2D::VInit(TiXmlElement* pData, Transform transform, Collider collider) {}
+//bool Physics2D::VInit(char* pData, Transform transform, Collider collider) { return true;  }
 
-void Physics2D::InitListOfActorsWithPhysics(std::list<Actor> actors) {}
+void Physics2D::InitListOfActorsWithPhysics(std::list<Actor*> actors) {}
 	
 void Physics2D::ChangeVelocity(float x, float y) {}
 

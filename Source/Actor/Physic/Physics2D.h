@@ -1,21 +1,23 @@
 #include "PhysicsComponentInterface.h"
-#include "Transform.h"
+#include "Actor/Transform/Transform.h"
 #include "Collider.h"
-
+#include <list>
+#include "Actor\Actor.h"
 
 class Physics2D : public PhysicsComponentInterface
 {
 private: 
-	std::list<Actor> m_actorsWithPhysics;
+	std::list<Actor*> m_actorsWithPhysics;
 	Transform m_transform;
 	Collider m_collider;
-	Vector2 m_velocity;
+	float m_velocityX;
+	float m_velocityY;
 	float m_rotationalSpeed;
 
 public:
 	Physics2D();
-	virtual bool VInit(TiXmlElement* pData, Transform transform, Collider collider); // gets transform/collider component of actor as well (required).
-	void InitListOfActorsWithPhysics(std::list<Actor> actors);
+	virtual bool VInit(char* pData, Transform transform, Collider collider) { return false; } // gets transform/collider component of actor as well (required).
+	void InitListOfActorsWithPhysics(std::list<Actor*> actors);
 	void ChangeVelocity(float x, float y);
 	void ChangeRotationalSpeed(float speed);
 

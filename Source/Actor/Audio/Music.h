@@ -5,7 +5,7 @@ class Music : public AudioComponentInterface
 {
 public:
 	Music();
-	virtual bool VInit(TiXmlElement* pData); 
+	virtual bool VInit(char* pData) { return false; }
 	virtual void PlayAtTime(float timeInSeconds);
 	virtual void SetVolume(int volume) ;
 	virtual void SetLooping(bool looping); 

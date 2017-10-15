@@ -1,12 +1,12 @@
 #include "AudioComponentInterface.h"
-#include "Transform.h"
+#include "Actor\Transform\Transform.h"
 
 class SoundEffect : public AudioComponentInterface
 {
 	Transform m_transform;
 public:
 	SoundEffect();
-	virtual bool VInit(TiXmlElement* pData, Transform transform); // transform required
+	virtual bool VInit(char* pData, Transform transform) { return false; }// transform required
 	virtual void PlayAtTime(float timeInSeconds);
 	virtual void SetVolume(int volume) ;
 	virtual void SetLooping(bool looping); 

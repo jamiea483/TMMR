@@ -2,24 +2,24 @@
 
 ComponentCreator::ComponentCreator() {}
 
-ActorComponent* ComponentCreator::CreateCollider() {}
+ActorComponent* ComponentCreator::CreateCollider() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreateDecisionMaking() {}
+ActorComponent* ComponentCreator::CreateDecisionMaking() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreateElasticTongue() {}
+ActorComponent* ComponentCreator::CreateElasticTongue() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreateFireBreath() {}
+ActorComponent* ComponentCreator::CreateFireBreath() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreateMesh() {}
+ActorComponent* ComponentCreator::CreateMesh() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreateMusic() {}
+ActorComponent* ComponentCreator::CreateMusic() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreatePathfinding() {}
+ActorComponent* ComponentCreator::CreatePathfinding() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreatePhysics2D() {}
+ActorComponent* ComponentCreator::CreatePhysics2D() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreatePlayerInput() {}
+ActorComponent* ComponentCreator::CreatePlayerInput() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreateSoundEffect() {}
+ActorComponent* ComponentCreator::CreateSoundEffect() { return nullptr; }
 
-ActorComponent* ComponentCreator::CreateTransform() {}
+ActorComponent* ComponentCreator::CreateTransform() { return nullptr; }

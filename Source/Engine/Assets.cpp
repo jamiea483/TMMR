@@ -2,7 +2,7 @@
 
 Assets::Assets(){}
 
-void Assets::LoadAssets(string screen) {}
+void Assets::LoadAssets(char* screen) {}
 
 void Assets::UnloadAssets() {}
 

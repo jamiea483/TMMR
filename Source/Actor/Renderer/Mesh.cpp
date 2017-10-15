@@ -2,9 +2,10 @@
 
 const char* Mesh::g_Name = "Mesh";
 
+
 Mesh::Mesh() {}
 
-bool Mesh::VInit(TiXmlElement* pData) {}
+//bool Mesh::VInit(char* pData) { return true; }
 
 void Mesh::Draw() {}
 

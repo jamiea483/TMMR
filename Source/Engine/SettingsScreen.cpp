@@ -2,4 +2,4 @@
 
 SettingsScreen::SettingsScreen() {}
 
-ActorMap SettingsScreen::CreateActorList() {}
+ActorMap* SettingsScreen::CreateActorList() { return nullptr; }

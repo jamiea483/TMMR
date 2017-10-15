@@ -1,4 +1,7 @@
 #include "ActorComponent.h"
+#include <map>
+#include "interfaces.h"
+
 
 class ActorFactory
 {
@@ -11,10 +14,10 @@ protected:
 
 public:
 	ActorFactory();
-	StrongActorPtr CreateActor(const char* actorResource);
+	Actor* CreateActor(const char* actorResource);
 
 protected:
-	virtual StrongActorComponentPtr CreateComponent(TiXmlElement* pData); 
+	virtual ActorComponent* CreateComponent(char* pData);
 
 private:
 	ActorId GetNextActorId(void);

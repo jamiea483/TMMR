@@ -2,9 +2,10 @@
 
 const char* SoundEffect::g_Name = "SoundEffect";
 
+
 SoundEffect::SoundEffect() {}
 
-bool SoundEffect::VInit(TiXmlElement* pData, Transform transform) {}
+//bool SoundEffect::VInit(char* pData, Transform transform) { return true; }
 
 void SoundEffect::PlayAtTime(float timeInSeconds) {}
 
