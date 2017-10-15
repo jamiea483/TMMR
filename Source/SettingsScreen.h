@@ -1,3 +1,5 @@
+#include "Screen.h"
+
 class SettingsScreen : public Screen
 {
 private:

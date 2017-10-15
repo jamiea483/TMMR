@@ -1,3 +1,5 @@
+#include "ActorComponent.h"
+
 class AudioComponentInterface : public ActorComponent
 {
 	bool m_looping;
@@ -15,6 +17,6 @@ public:
 private:
 	
 
-}
+};
 
 

@@ -1,3 +1,5 @@
+#include "Music.h"
+
 const char* Music::g_Name = "Music";
 
 Music::Music() {}

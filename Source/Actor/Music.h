@@ -1,3 +1,5 @@
+
+
 class Music : public AudioComponentInterface
 {
 public:
@@ -12,6 +14,6 @@ public:
 private:
 	
 
-}
+};
 
 

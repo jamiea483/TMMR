@@ -1,3 +1,5 @@
+#include "Physics2D.h"
+
 const char* Physics2D::g_Name = "Physics2D";
 
 Physics2D::Physics2D() {}

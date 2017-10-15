@@ -1,3 +1,5 @@
+#include "Pathfinding.h"
+
 const char* Pathfinding::g_Name = "Pathfinding";
 
 Pathfinding::Pathfinding() {}

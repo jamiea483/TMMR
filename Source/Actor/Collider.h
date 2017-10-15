@@ -1,4 +1,4 @@
-#include 
+#include "PhysicsComponentInterface.h"
 
 class Collider : public PhysicsComponentInterface
 {
@@ -12,6 +12,6 @@ public:
 private:
 	
 
-}
+};
 
 

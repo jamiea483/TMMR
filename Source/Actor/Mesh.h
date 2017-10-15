@@ -1,3 +1,5 @@
+#include "RenderComponentInterface.h"
+
 class Mesh : public RenderComponentInterface
 {
 	std::string m_visualResource;
@@ -11,6 +13,6 @@ public:
 private:
 	void Draw();
 	void StartAnimation(std::string animationName);
-}
+};
 
 

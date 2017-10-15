@@ -1,3 +1,5 @@
+#include "ElasticTongue.h"
+
 const char* ElasticTongue::g_Name = "ElasticTongue";
 
 ElasticTongue::ElasticTongue() {}

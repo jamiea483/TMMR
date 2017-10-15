@@ -1,3 +1,5 @@
+#include "DecisionMaking.h"
+
 const char* DecisionMaking::g_Name = "DecisionMaking";
 
 

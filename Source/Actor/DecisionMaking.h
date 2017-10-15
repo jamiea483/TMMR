@@ -1,3 +1,6 @@
+#include "AIComponentInterface.h"
+#include "Transform.h"
+
 class DecisionMaking : public AIComponentInterface
 {
 private: 
@@ -15,6 +18,6 @@ public:
 private:
 	void MakeDecision();
 
-}
+};
 
 

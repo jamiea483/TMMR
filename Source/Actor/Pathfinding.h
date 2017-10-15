@@ -18,6 +18,6 @@ public:
 private:
 	void FindPathToTarget(Vector2 target);
 
-}
+};
 
 

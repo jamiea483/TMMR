@@ -1,4 +1,6 @@
-cconst char* SoundEffect::g_Name = "SoundEffect";
+#include "SoundEffect.h"	
+
+const char* SoundEffect::g_Name = "SoundEffect";
 
 SoundEffect::SoundEffect() {}
 

@@ -1,3 +1,5 @@
+#include "ActorComponent.h"
+
 class AbilityComponentInterface : public ActorComponent
 {
 	std::list<Actor> m_actorsWithCollider;
@@ -12,6 +14,6 @@ public:
 private:
 	
 
-}
+};
 
 

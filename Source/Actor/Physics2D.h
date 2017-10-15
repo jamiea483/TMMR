@@ -1,3 +1,8 @@
+#include "PhysicsComponentInterface.h"
+#include "Transform.h"
+#include "Collider.h"
+
+
 class Physics2D : public PhysicsComponentInterface
 {
 private: 
@@ -20,6 +25,6 @@ public:
 private:
 	void CalculatePhysics(float deltaTime);
 
-}
+};
 
 

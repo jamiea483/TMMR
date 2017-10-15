@@ -1,4 +1,6 @@
-class ElasticTongue : public AbilityhComponentInterface
+#include "AbilityComponentInterface.h"
+
+class ElasticTongue : public AbilityComponentInterface
 {
 public:
 	ElasticTongue();
@@ -11,6 +13,6 @@ public:
 private:
 	
 
-}
+};
 
 

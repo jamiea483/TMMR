@@ -1,3 +1,5 @@
+#include "ActorComponent.h"
+ 
 class Actor
 {
 	friend class ActorFactory;

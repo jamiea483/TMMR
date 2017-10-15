@@ -1,3 +1,6 @@
+#include "Actor\ActorSpawnManager.h"
+#include "Actor\Actor.h"
+
 class GameplaySpawnManager : public ActorSpawnManager
 {
 public:
@@ -7,6 +10,6 @@ public:
 
 private:
 	
-}
+};
 
 

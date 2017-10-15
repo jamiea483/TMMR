@@ -1,3 +1,5 @@
+#include "Settings.h"
+
 Settings::Settings() {}
 
 void Settings::SetMusicVolume(int vol) {}

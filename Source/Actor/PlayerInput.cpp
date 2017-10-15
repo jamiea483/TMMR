@@ -1,3 +1,5 @@
+#include "PlayerInput.h"
+
 const char* PlayerInput::g_Name = "PlayerInput";
 
 PlayerInput::PlayerInput() {}

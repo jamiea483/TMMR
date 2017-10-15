@@ -1,4 +1,4 @@
-#include "Actor\ActorComponent.h"
+#include "ActorComponent.h"
 
 class ComponentCreator
 {
@@ -19,6 +19,6 @@ public:
 private:
 	
 
-}
+};
 
 

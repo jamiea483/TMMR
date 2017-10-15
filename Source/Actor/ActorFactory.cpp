@@ -1,3 +1,5 @@
+#include "ActorFactory.h"
+
 ActorFactory::ActorFactory(){}
 
 StrongActorPtr ActorFactory::CreateActor(const char* actorResource) {}

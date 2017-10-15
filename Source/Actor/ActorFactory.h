@@ -1,13 +1,14 @@
+#include "ActorComponent.h"
 
 class ActorFactory
 {
 	ActorId m_lastActorId;
 
 protected:
-	std::map<ActorComponent*, ComponentId> m_componentCreators;
+	map<ActorComponent*, ComponentId> m_componentCreators;
 
 public:
-	ActorFactory();
+	ActorFactory(void);
 	StrongActorPtr CreateActor(const char* actorResource);
 
 protected:

@@ -1,3 +1,5 @@
+#include "Actor\ActorFactory.h"
+
 class Screen
 {
 private:

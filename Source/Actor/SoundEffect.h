@@ -1,3 +1,6 @@
+#include "AudioComponentInterface.h"
+#include "Transform.h"
+
 class SoundEffect : public AudioComponentInterface
 {
 	Transform m_transform;
@@ -15,6 +18,6 @@ public:
 private:
 	
 
-}
+};
 
 

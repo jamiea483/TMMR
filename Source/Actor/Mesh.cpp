@@ -1,3 +1,5 @@
+#include "Mesh.h"
+
 const char* Mesh::g_Name = "Mesh";
 
 Mesh::Mesh() {}

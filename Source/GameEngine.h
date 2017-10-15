@@ -1,3 +1,7 @@
+#include "Assets.h"
+#include "Screen.h"
+#include "Actor\ActorSpawnManager.h"
+
 class GameEngine
 {
 private:

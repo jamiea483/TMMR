@@ -1,3 +1,6 @@
+#include "ActorFactory.h"
+#include "Actor.h"
+
 class ActorSpawnManager
 {
 private:
@@ -11,6 +14,6 @@ public:
 
 private:
 	
-}
+};
 
 

@@ -18,6 +18,67 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Actor\AbilityComponentInterface.h" />
+    <ClInclude Include="..\Source\Actor\Actor.h" />
+    <ClInclude Include="..\Source\Actor\ActorComponent.h" />
+    <ClInclude Include="..\Source\Actor\ActorFactory.h" />
+    <ClInclude Include="..\Source\Actor\ActorSpawnManager.h" />
+    <ClInclude Include="..\Source\Actor\AIComponentInterface.h" />
+    <ClInclude Include="..\Source\Actor\AudioComponentInterface.h" />
+    <ClInclude Include="..\Source\Actor\Collider.h" />
+    <ClInclude Include="..\Source\Actor\ComponentCreator.h" />
+    <ClInclude Include="..\Source\Actor\DecisionMaking.h" />
+    <ClInclude Include="..\Source\Actor\ElasticTongue.h" />
+    <ClInclude Include="..\Source\Actor\FireBreath.h" />
+    <ClInclude Include="..\Source\Actor\Mesh.h" />
+    <ClInclude Include="..\Source\Actor\Music.h" />
+    <ClInclude Include="..\Source\Actor\Pathfinding.h" />
+    <ClInclude Include="..\Source\Actor\Physics2D.h" />
+    <ClInclude Include="..\Source\Actor\PhysicsComponentInterface.h" />
+    <ClInclude Include="..\Source\Actor\PlayerComponentInterface.h" />
+    <ClInclude Include="..\Source\Actor\PlayerInput.h" />
+    <ClInclude Include="..\Source\Actor\RenderComponentInterface.h" />
+    <ClInclude Include="..\Source\Actor\SoundEffect.h" />
+    <ClInclude Include="..\Source\Actor\Transform.h" />
+    <ClInclude Include="..\Source\Assets.h" />
+    <ClInclude Include="..\Source\GameEngine.h" />
+    <ClInclude Include="..\Source\GameOverScreen.h" />
+    <ClInclude Include="..\Source\GameplayScreen.h" />
+    <ClInclude Include="..\Source\GameplaySpawnManager.h" />
+    <ClInclude Include="..\Source\MainMenuScreen.h" />
+    <ClInclude Include="..\Source\PauseScreen.h" />
+    <ClInclude Include="..\Source\Screen.h" />
+    <ClInclude Include="..\Source\Settings.h" />
+    <ClInclude Include="..\Source\SettingsScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Actor\Actor.cpp" />
+    <ClCompile Include="..\Source\Actor\ActorFactory.cpp" />
+    <ClCompile Include="..\Source\Actor\ActorSpawnManager.cpp" />
+    <ClCompile Include="..\Source\Actor\Collider.cpp" />
+    <ClCompile Include="..\Source\Actor\ComponentCreator.cpp" />
+    <ClCompile Include="..\Source\Actor\DecisionMaking.cpp" />
+    <ClCompile Include="..\Source\Actor\ElasticTongue.cpp" />
+    <ClCompile Include="..\Source\Actor\FireBreath.cpp" />
+    <ClCompile Include="..\Source\Actor\Mesh.cpp" />
+    <ClCompile Include="..\Source\Actor\Music.cpp" />
+    <ClCompile Include="..\Source\Actor\Pathfinding.cpp" />
+    <ClCompile Include="..\Source\Actor\Physics2D.cpp" />
+    <ClCompile Include="..\Source\Actor\PlayerInput.cpp" />
+    <ClCompile Include="..\Source\Actor\SoundEffect.cpp" />
+    <ClCompile Include="..\Source\Actor\Transform.cpp" />
+    <ClCompile Include="..\Source\Assets.cpp" />
+    <ClCompile Include="..\Source\GameEngine.cpp" />
+    <ClCompile Include="..\Source\GameOverScreen.cpp" />
+    <ClCompile Include="..\Source\GameplayScreen.cpp" />
+    <ClCompile Include="..\Source\GameplaySpawnManager.cpp" />
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Source\MainMenuScreen.cpp" />
+    <ClCompile Include="..\Source\PauseScreen.cpp" />
+    <ClCompile Include="..\Source\Settings.cpp" />
+    <ClCompile Include="..\Source\SettingsScreen.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C9F00BB1-E5DF-434C-BE3A-B47E058EA0F1}</ProjectGuid>
@@ -113,62 +174,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\Source\AI\DecisionMaking.cpp" />
-    <ClCompile Include="..\Source\AI\Pathfinding.cpp" />
-    <ClCompile Include="..\Source\Assets.cpp" />
-    <ClCompile Include="..\Source\Audio\Music.cpp" />
-    <ClCompile Include="..\Source\Audio\SoundEffect.cpp" />
-    <ClCompile Include="..\Source\ComponentCreator.cpp" />
-    <ClCompile Include="..\Source\GameEngine.cpp" />
-    <ClCompile Include="..\Source\GameOverScreen.cpp" />
-    <ClCompile Include="..\Source\GameplayScreen.cpp" />
-    <ClCompile Include="..\Source\GameplaySpawnManager.cpp" />
-    <ClCompile Include="..\Source\main.cpp" />
-    <ClCompile Include="..\Source\MainMenuScreen.cpp" />
-    <ClCompile Include="..\Source\PauseScreen.cpp" />
-    <ClCompile Include="..\Source\Physic\Collider.cpp" />
-    <ClCompile Include="..\Source\Physic\Physics2D.cpp" />
-    <ClCompile Include="..\Source\Physic\Transform.cpp" />
-    <ClCompile Include="..\Source\PlayerInput.cpp" />
-    <ClCompile Include="..\Source\Renderer\Mesh.cpp" />
-    <ClCompile Include="..\Source\Settings.cpp" />
-    <ClCompile Include="..\Source\SettingsScreen.cpp" />
-    <ClCompile Include="TMMR.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Source\Actor\AbilityComponentInterface.h" />
-    <ClInclude Include="..\Source\Actor\Actor.h" />
-    <ClInclude Include="..\Source\Actor\ActorComponent.h" />
-    <ClInclude Include="..\Source\Actor\ActorFactory.h" />
-    <ClInclude Include="..\Source\Actor\ActorSpawnManager.h" />
-    <ClInclude Include="..\Source\Actor\ElasticTongue.h" />
-    <ClInclude Include="..\Source\Actor\FireBreath.h" />
-    <ClInclude Include="..\Source\AIComponentInterface.h" />
-    <ClInclude Include="..\Source\AI\AIComponentInterface.h" />
-    <ClInclude Include="..\Source\AI\DecisionMaking.h" />
-    <ClInclude Include="..\Source\AI\Pathfinding.h" />
-    <ClInclude Include="..\Source\Assets.h" />
-    <ClInclude Include="..\Source\Audio\AudioComponentInterface.h" />
-    <ClInclude Include="..\Source\Audio\Music.h" />
-    <ClInclude Include="..\Source\Audio\SoundEffect.h" />
-    <ClInclude Include="..\Source\ComponentCreator.h" />
-    <ClInclude Include="..\Source\GameEngine.h" />
-    <ClInclude Include="..\Source\GameOverScreen.h" />
-    <ClInclude Include="..\Source\GameplayScreen.h" />
-    <ClInclude Include="..\Source\PauseScreen.h" />
-    <ClInclude Include="..\Source\Physic\Collider.h" />
-    <ClInclude Include="..\Source\Physic\Physics2D.h" />
-    <ClInclude Include="..\Source\Physic\PhysicsComponentInterface.h" />
-    <ClInclude Include="..\Source\Physic\Transform.h" />
-    <ClInclude Include="..\Source\PlayerComponentInterface.h" />
-    <ClInclude Include="..\Source\PlayerInput.h" />
-    <ClInclude Include="..\Source\Renderer\Mesh.h" />
-    <ClInclude Include="..\Source\Renderer\RenderComponentInterface.h" />
-    <ClInclude Include="..\Source\Screen.h" />
-    <ClInclude Include="..\Source\Settings.h" />
-    <ClInclude Include="..\Source\SettingsScreen.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

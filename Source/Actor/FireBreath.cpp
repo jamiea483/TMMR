@@ -1,3 +1,5 @@
+#include "FireBreath.h"
+
 const char* FireBreath::g_Name = "FireBreath";
 
 FireBreath::FireBreath() {}

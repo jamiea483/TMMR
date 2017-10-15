@@ -1,3 +1,5 @@
+#include "ActorComponent.h"
+
 class AIComponentInterface : public ActorComponent
 {
 public:
@@ -9,6 +11,6 @@ public:
 private:
 	
 
-}
+};
 
 
