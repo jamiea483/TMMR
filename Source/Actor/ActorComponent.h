@@ -1,3 +1,5 @@
+
+
 class ActorComponent
 {
 	friend class ActorFactory;

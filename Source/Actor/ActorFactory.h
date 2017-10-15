@@ -2,13 +2,15 @@
 
 class ActorFactory
 {
+	typedef unsigned int ActorId;
+
 	ActorId m_lastActorId;
 
 protected:
-	map<ActorComponent*, ComponentId> m_componentCreators;
+	std::map<ActorComponent*, ComponentId> m_componentCreators;
 
 public:
-	ActorFactory(void);
+	ActorFactory();
 	StrongActorPtr CreateActor(const char* actorResource);
 
 protected:

@@ -6,8 +6,9 @@ class Actor
 public:
 	typedef std::map<ComponentId, StrongActorComponentPtr> ActorComponents;
 private:
-	ActorId m_id; 
-	ActorComponents m_components; 
+	typedef unsigned int ActorId; 
+	ActorId m_id;
+	ActorComponent m_components; 
 public:
 	explicit Actor(ActorId id);
 	~Actor(void);
