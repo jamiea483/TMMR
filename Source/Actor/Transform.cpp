@@ -1,3 +1,5 @@
+#include "Transform.h"
+
 const char* Transform::g_Name = "Transform";
 
 Transform::Transform() {}

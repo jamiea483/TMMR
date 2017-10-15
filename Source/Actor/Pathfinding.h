@@ -1,3 +1,6 @@
+#include "AIComponentInterface.h"
+#include "Transform.h"
+
 class Pathfinding : public AIComponentInterface
 {
 private: 

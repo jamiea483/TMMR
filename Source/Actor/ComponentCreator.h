@@ -1,3 +1,5 @@
+#include "Actor\ActorComponent.h"
+
 class ComponentCreator
 {
 public:

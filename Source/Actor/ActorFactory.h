@@ -1,3 +1,4 @@
+
 class ActorFactory
 {
 	ActorId m_lastActorId;

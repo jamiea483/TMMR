@@ -1,3 +1,5 @@
+#include "PlayerComponentInterface.h"
+
 class PlayerInput : public PlayerComponentInterface
 {
 public:
@@ -11,6 +13,6 @@ public:
 private:
 	void HandleInput(int keyCode, std::string inputType);
 
-}
+};
 
 

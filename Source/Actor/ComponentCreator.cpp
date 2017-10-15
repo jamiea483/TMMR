@@ -1,3 +1,5 @@
+#include "ComponentCreator.h"
+
 ComponentCreator::ComponentCreator() {}
 
 ActorComponent* ComponentCreator::CreateCollider() {}

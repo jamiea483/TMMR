@@ -1,4 +1,6 @@
-class FireBreath : public AbilityhComponentInterface
+#include "AbilityComponentInterface.h"
+
+class FireBreath : public AbilityComponentInterface
 {
 public:
 	FireBreath();

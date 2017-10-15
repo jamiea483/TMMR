@@ -1,3 +1,5 @@
+#include "Screen.h"
+
 class MainMenuScreen : public Screen
 {
 private:

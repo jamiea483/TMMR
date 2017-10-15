@@ -1,3 +1,5 @@
+#include "Assets.h"
+
 Assets::Assets(){}
 
 void Assets::LoadAssets(string screen) {}

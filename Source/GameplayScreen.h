@@ -1,3 +1,5 @@
+#include "Screen.h"
+
 class GameplayScreen : private Screen
 {
 private:
