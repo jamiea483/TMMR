@@ -1,4 +1,4 @@
-#include "PhysicsComponentInterface.h"
+#include "Actor\Physic\PhysicsComponentInterface.h"
 
 class Collider : public PhysicsComponentInterface
 {

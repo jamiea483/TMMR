@@ -1,4 +1,5 @@
 #include "Actor\ActorComponent.h"
+#include "Actor\interfaces.h"
 
 class AIComponentInterface : public ActorComponent
 {

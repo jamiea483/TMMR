@@ -2,9 +2,11 @@
 
 GameplaySpawnManager::GameplaySpawnManager(ActorMap actors) {}
 
-bool GameplaySpawnManager::Update(float deltaTime) {}
+bool GameplaySpawnManager::Update(float deltaTime) { return true; }
 
-Actor SpawnActor() {}
+Actor* GameplaySpawnManager::SpawnActor() { return nullptr; }
+
+
 
 
 

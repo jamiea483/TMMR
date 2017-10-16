@@ -1,11 +1,13 @@
 #include "Actor/ActorFactory.h"
 #include "Actor/Actor.h"
 
+
+typedef std::map<ActorId, Actor*> ActorMap;
 class ActorSpawnManager
 {
 
 private:
-	typedef std::map<ActorId, Actor*> ActorMap;
+	
 	ActorMap m_actors; 
 	ActorFactory m_actorFactory;
 public:
