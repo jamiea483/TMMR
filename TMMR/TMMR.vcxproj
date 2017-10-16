@@ -76,6 +76,7 @@
     <ClCompile Include="..\Source\Engine\main.cpp" />
     <ClCompile Include="..\Source\Engine\MainMenuScreen.cpp" />
     <ClCompile Include="..\Source\Engine\PauseScreen.cpp" />
+    <ClCompile Include="..\Source\Engine\Screen.cpp" />
     <ClCompile Include="..\Source\Engine\Settings.cpp" />
     <ClCompile Include="..\Source\Engine\SettingsScreen.cpp" />
   </ItemGroup>
